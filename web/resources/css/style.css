@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.input{
+    box-shadow: none !important;
+    border-style: hidden !important;
+    padding-top: 0 !important;
+    padding-left: 0 !important;
+    margin-top:0 !important;
+    margin-right: 4px !important;
+    margin-left: 0 !important;
+
+}
+.pnl-grid{
+    color: #5A5A5A;
+    background: #fff;
+    margin:5px 5px;
+    font-size: 16px !important;
+    border-radius: 0px;
+    border: 1px solid #FEDE00 !important;
+    -webkit-transition: 0.3s linear;
+    -moz-transition: 0.3s linear;
+    -o-transition: 0.3s linear;
+    transition: 0.3s linear;
+}
+.pnl-grid :focus{
+    border-color: #66afe9 !important;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(102, 175, 203, 0.95) !important;
+    outline: 0 none !important;
+}
+
+.btn{
+    -moz-user-select: none;
+    border: 1px solid transparent !important;
+    border-radius: 5px;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 1.42857;
+    margin-bottom: 3px;
+    margin-top: 3px !important;
+    padding-top: 2px;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+    color: rgba(16, 16, 16, 0.68) !important;
+    background-color: #FEDE00 !important;
+    width: 98%;
+    height: 40px;
+}
+
+.btn:focus{
+    outline: thin dotted #333 !important;
+    outline-offset: -2px !important;
+}
+
+.btn:hover{
+    box-shadow:100px 45px rgba(0, 0, 0, 0.2) inset !important;
+    color: #000 !important;
+    text-decoration: none !important;
+}
+
+.fa-user{
+    margin-right: 8px !important;
+}
+.fa-key{
+    margin-right: 5px !important;
+}
+
+
+.ui-dialog-titlebar{
+    background: #FEDE00;
+    color: rgba(16, 16, 16, 0.68);
+    box-shadow: none;
+
+}
+/*.ui-dialog-title{
+    float: right !important;
+}
+
+.ui-dialog-titlebar-close{
+    float: left !important;
+}*/
+
+.fa-key , .fa-user , .fa-expeditedssl{
+    color: #66afe9 ;
+}
+
+.ui-panelgrid-cell, .ui-widget-content{
+    border-style: none !important;
+}
+
+.ui-widget-content{
+
+}
+
+.outputtext{
+    font-family: yekan;
+    font-size: 16px !important;
+}
